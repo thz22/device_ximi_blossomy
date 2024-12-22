@@ -37,10 +37,11 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
-# Preopt critical applications
+# Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Settings \
-    SystemUI
+    Launcher3QuickStep \
+    SystemUI \
+    Settings
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1600
