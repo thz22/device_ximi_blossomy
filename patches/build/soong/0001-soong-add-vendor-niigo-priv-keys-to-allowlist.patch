@@ -19,7 +19,7 @@ index 6e22831..969ad76 100644
  		"prebuilts/rust":/* recursive = */ true,
  
 +		// T25 - throw our key into soong allowlist
-+		"vendor/niigo-priv/keys":/* recursive = */ false,
++		"vendor/lineage-priv/keys":/* recursive = */ false,
 +
  		// not recursive due to conflicting workspace paths in tools/atest/bazel/rules
  		"tools/asuite/atest":/* recursive = */ false,
