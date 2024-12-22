@@ -235,6 +235,9 @@ debug.hwui.skia_atrace_enabled=false
 # RenderSkia
 renderthread.skia.reduceopstasksplitting=true
 
+# PhantomProcess
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # TEE
 ro.vendor.mtk_microtrust_tee_support=1
 
