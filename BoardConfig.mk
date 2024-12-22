@@ -61,6 +61,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_blossom
 # Jemalloc
 MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
+MALLOC_SVELTE_FOR_LIBC64 := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := blossom_defconfig # no file, only make build system happy
