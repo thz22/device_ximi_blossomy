@@ -17,14 +17,11 @@ include $(LOCAL_PATH)/vendor_logtag.mk
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
-# Always preopt extracted APKs to prevent extracting out of the APK
-# for gms modules.
-PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+# Android Go Tunnings
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 USE_DEX2OAT_DEBUG := false
 WITH_DEXPREOPT_DEBUG_INFO := false
-DONT_DEXPREOPT_PREBUILTS := true
 
 # Do not generate libartd.
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
