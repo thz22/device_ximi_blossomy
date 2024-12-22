@@ -521,5 +521,9 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayBlossom \
     WifiResOverlayBlossom
 
+# DeviceOverlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-custom
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/blossom/blossom-vendor.mk)
