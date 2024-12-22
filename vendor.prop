@@ -232,6 +232,9 @@ debug.sf.enable_hwc_vds=0
 # SkiaTracing
 debug.hwui.skia_atrace_enabled=false
 
+# RenderSkia
+renderthread.skia.reduceopstasksplitting=true
+
 # TEE
 ro.vendor.mtk_microtrust_tee_support=1
 
