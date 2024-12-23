@@ -58,11 +58,6 @@ TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_blossom
 TARGET_RECOVERY_DEVICE_MODULES := libinit_blossom
 
-# Jemalloc
-MALLOC_SVELTE := true
-MALLOC_SVELTE_FOR_LIBC32 := true
-MALLOC_SVELTE_FOR_LIBC64 := true
-
 # Kernel
 TARGET_KERNEL_CONFIG := blossom_defconfig # no file, only make build system happy
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/kernel # automatically copied
