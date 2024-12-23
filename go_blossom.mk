@@ -9,7 +9,6 @@ endif
 PRODUCT_PACKAGES += InProcessNetworkStack
 PRODUCT_PACKAGES += CellBroadcastAppPlatform
 PRODUCT_PACKAGES += CellBroadcastServiceModulePlatform
-PRODUCT_PACKAGES += com.android.tethering.inprocess
 
 # use the go specific handheld_core_hardware.xml from frameworks
 PRODUCT_COPY_FILES += \
