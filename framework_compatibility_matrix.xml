@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <compatibility-matrix version="1.0" type="framework">
     <hal format="hidl" optional="true">
         <name>android.hardware.audio.effect</name>
-        <version>6.0</version>
+        <version>6</version>
         <interface>
             <name>IEffectsFactory</name>
             <instance>default</instance>
@@ -9,7 +10,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.audio</name>
-        <version>6.0</version>
+        <version>6</version>
         <interface>
             <name>IDevicesFactory</name>
             <instance>default</instance>
@@ -25,7 +26,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.wifi.hostapd</name>
-        <version>2.0-2</version>
+        <version>2</version>
         <interface>
             <name>IHostapd</name>
             <instance>default</instance>
@@ -33,7 +34,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.wifi</name>
-        <version>1.0-6</version>
+        <version>6</version>
         <interface>
             <name>IWifi</name>
             <instance>default</instance>
@@ -54,7 +55,7 @@
             <name>IBluetoothAudioProviderFactory</name>
             <instance>default</instance>
         </interface>
-    </hal>      
+    </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.bluetooth.audio</name>
         <version>2</version>
@@ -65,7 +66,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.camera.provider</name>
-        <version>2.0-6</version>
+        <version>6</version>
         <interface>
             <name>ICameraProvider</name>
             <instance>internal/0</instance>
@@ -73,7 +74,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.cas</name>
-        <version>1.0-2</version>
+        <version>2</version>
         <interface>
             <name>IMediaCasService</name>
             <instance>default</instance>
@@ -81,7 +82,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.drm</name>
-        <version>1.0-4</version>
+        <version>4</version>
         <interface>
             <name>ICryptoFactory</name>
             <instance>widevine</instance>
@@ -93,7 +94,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.gnss</name>
-        <version>2.0-1</version>
+        <version>1</version>
         <interface>
             <name>IGnss</name>
             <instance>default</instance>
@@ -101,7 +102,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.graphics.allocator</name>
-        <version>4.0</version>
+        <version>4</version>
         <interface>
             <name>IAllocator</name>
             <instance>default</instance>
@@ -109,7 +110,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.graphics.mapper</name>
-        <version>4.0</version>
+        <version>4</version>
         <interface>
             <name>IMapper</name>
             <instance>default</instance>
@@ -117,13 +118,13 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.health</name>
-        <version>2.0-1</version>
+        <version>1</version>
         <interface>
             <name>IHealth</name>
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
+    <hal format ="aidl" optional="true">
         <name>android.hardware.light</name>
         <version>2</version>
         <interface>
@@ -140,7 +141,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.radio</name>
-        <version>1.0-5</version>
+        <version>5</version>
         <interface>
             <name>IRadio</name>
             <instance>em1</instance>
@@ -167,7 +168,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.wifi.hostapd</name>
-        <version>1.0-2</version>
+        <version>2</version>
         <interface>
             <name>IHostapd</name>
             <instance>default</instance>
@@ -175,7 +176,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.wifi</name>
-        <version>1.0-6</version>
+        <version>6</version>
         <interface>
             <name>IWifi</name>
             <instance>default</instance>
@@ -183,7 +184,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.bluetooth.audio</name>
-        <version>2.0-1</version>
+        <version>1</version>
         <interface>
             <name>IBluetoothAudioProvidersFactory</name>
             <instance>default</instance>
@@ -191,7 +192,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.camera.bgservice</name>
-        <version>1.0-1</version>
+        <version>1</version>
         <interface>
             <name>IBGService</name>
             <instance>internal/0</instance>
@@ -199,7 +200,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.dmc</name>
-        <version>1.0-2</version>
+        <version>2</version>
         <interface>
             <name>IDmcService</name>
             <instance>dmc_hidl_service</instance>
@@ -207,7 +208,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.gpu</name>
-        <version>1.0</version>
+        <version>1</version>
         <interface>
             <name>IGraphicExt</name>
             <instance>default</instance>
@@ -215,7 +216,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.keymaster_attestation</name>
-        <version>1.0-1</version>
+        <version>1</version>
         <interface>
             <name>IKeymasterDevice</name>
             <instance>default</instance>
@@ -223,7 +224,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.lbs</name>
-        <version>1.0</version>
+        <version>1</version>
         <interface>
             <name>ILbs</name>
             <instance>AgpsDebugInterface</instance>
@@ -239,7 +240,7 @@
             <instance>mtk_lppe_socket_network</instance>
             <instance>mtk_lppe_socket_sensor</instance>
             <instance>mtk_lppe_socket_wlan</instance>
-            <instance>mtk_meta2mnld</instance>
+            <instance>mtk_meta2mn ld</instance>
             <instance>mtk_mnld2debugService</instance>
             <instance>mtk_mnld2mtklogger</instance>
             <instance>mtk_mnld2nlputils</instance>
@@ -248,7 +249,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.mms</name>
-        <version>1.0-5</version>
+        <version>5</version>
         <interface>
             <name>IMms</name>
             <instance>default</instance>
@@ -256,7 +257,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.mtkcodecservice</name>
-        <version>1.0-1</version>
+        <version>1</version>
         <interface>
             <name>IMtkCodecService</name>
             <instance>default</instance>
@@ -264,7 +265,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.mtkpower</name>
-        <version>1.0-2</version>
+        <version>2</version>
         <interface>
             <name>IMtkPerf</name>
             <instance>default</instance>
@@ -276,7 +277,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.mtkradioex</name>
-        <version>2.0</version>
+        <version>2</version>
         <interface>
             <name>IMtkRadioEx</name>
             <instance>imsSlot1</instance>
@@ -299,7 +300,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.netdagent</name>
-        <version>1.0</version>
+        <version>1</version>
         <interface>
             <name>INetdagent</name>
             <instance>default</instance>
@@ -307,7 +308,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.nvram</name>
-        <version>1.0-1</version>
+        <version>1</version>
         <interface>
             <name>INvram</name>
             <instance>default</instance>
@@ -315,7 +316,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.pq</name>
-        <version>2.0-6</version>
+        <version>6</version>
         <interface>
             <name>IPictureQuality</name>
             <instance>default</instance>
@@ -323,7 +324,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.videotelephony</name>
-        <version>1.0</version>
+        <version>1</version>
         <interface>
             <name>IVideoTelephony</name>
             <instance>default</instance>
