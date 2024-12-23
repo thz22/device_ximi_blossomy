@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/blossom/device.mk)
 # Inherit some common LOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit go optimizations for blossomy
+$(call inherit-product, device/xiaomi/blossom/go_blossom.mk)
+
 # include private signing keys
 -include vendor/lineage-priv/keys/keys.mk
 
